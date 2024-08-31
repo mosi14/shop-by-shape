@@ -135,7 +135,7 @@ export default function NavbarMenu() {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" sx={{backgroundColor: 'white', color:'black', height: '20vh'}}>
+            <AppBar position="static" sx={{backgroundColor: 'white', color:'black'}}>
                 <Toolbar>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
